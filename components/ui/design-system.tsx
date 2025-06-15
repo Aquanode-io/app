@@ -216,11 +216,11 @@ const gridVariants = cva(
   {
     variants: {
       variant: {
-        "auto-fit": "grid-auto-fit",
-        "auto-fill": "grid-auto-fill",
-        "responsive-2": "grid-responsive-2", 
+        "responsive-2": "grid-responsive-2",
         "responsive-3": "grid-responsive-3",
-        "responsive-4": "grid-responsive-4"
+        "responsive-4": "grid-responsive-4",
+        "auto-fit": "grid-auto-fit",
+        "auto-fill": "grid-auto-fill"
       }
     },
     defaultVariants: {
@@ -245,7 +245,7 @@ export const Grid = React.forwardRef<HTMLDivElement, GridProps>(
 Grid.displayName = "Grid"
 
 // ==========================================
-// STATUS SYSTEM
+// STATUS SYSTEM - Purple accent for active states
 // ==========================================
 
 const statusVariants = cva(
@@ -287,13 +287,13 @@ const inputVariants = cva(
   "input-base input-focus",
   {
     variants: {
-      variant: {
-        default: "",
-        error: "input-error"
+      error: {
+        true: "input-error",
+        false: ""
       }
     },
     defaultVariants: {
-      variant: "default"
+      error: false
     }
   }
 )
@@ -303,10 +303,10 @@ export interface InputProps
     VariantProps<typeof inputVariants> {}
 
 export const Input = React.forwardRef<HTMLInputElement, InputProps>(
-  ({ className, variant, ...props }, ref) => (
+  ({ className, error, ...props }, ref) => (
     <input
       ref={ref}
-      className={cn(inputVariants({ variant }), className)}
+      className={cn(inputVariants({ error }), className)}
       {...props}
     />
   )
@@ -314,7 +314,7 @@ export const Input = React.forwardRef<HTMLInputElement, InputProps>(
 Input.displayName = "Input"
 
 // ==========================================
-// SPACING UTILITIES
+// UTILITY COMPONENTS
 // ==========================================
 
 export interface SpacerProps extends React.HTMLAttributes<HTMLDivElement> {
@@ -322,18 +322,18 @@ export interface SpacerProps extends React.HTMLAttributes<HTMLDivElement> {
 }
 
 export const Spacer = React.forwardRef<HTMLDivElement, SpacerProps>(
-  ({ className, size = 'element', ...props }, ref) => {
-    const spacingClass = {
+  ({ className, size = 'component', ...props }, ref) => {
+    const sizeClasses = {
       section: 'space-section',
-      component: 'space-component', 
+      component: 'space-component',
       element: 'space-element',
       tight: 'space-tight'
-    }[size]
+    }
     
     return (
       <div
         ref={ref}
-        className={cn(spacingClass, className)}
+        className={cn(sizeClasses[size], className)}
         {...props}
       />
     )
@@ -342,7 +342,7 @@ export const Spacer = React.forwardRef<HTMLDivElement, SpacerProps>(
 Spacer.displayName = "Spacer"
 
 // ==========================================
-// DASHBOARD SPECIFIC COMPONENTS
+// SPECIALIZED COMPONENTS
 // ==========================================
 
 export interface StatsCardProps extends React.HTMLAttributes<HTMLDivElement> {
@@ -354,19 +354,24 @@ export interface StatsCardProps extends React.HTMLAttributes<HTMLDivElement> {
 
 export const StatsCard = React.forwardRef<HTMLDivElement, StatsCardProps>(
   ({ className, title, value, subtitle, loading, ...props }, ref) => (
-    <Card ref={ref} variant="compact" className={cn("", className)} {...props}>
-      <Text variant="small" muted className="space-tight">
+    <Card
+      ref={ref}
+      variant="compact"
+      className={cn("text-center", className)}
+      {...props}
+    >
+      <Heading level={6} className="text-muted-foreground mb-2">
         {title}
-      </Text>
+      </Heading>
       {loading ? (
-        <div className="h-8 w-16 bg-muted animate-pulse rounded" />
+        <div className="h-8 bg-muted/20 animate-pulse rounded mb-1" />
       ) : (
-        <Heading level={3} className="text-foreground">
+        <Heading level={2} className="text-accent mb-1">
           {value}
         </Heading>
       )}
       {subtitle && (
-        <Text variant="caption" muted>
+        <Text variant="small" muted>
           {subtitle}
         </Text>
       )}
@@ -384,27 +389,33 @@ export interface DeploymentCardProps extends React.HTMLAttributes<HTMLDivElement
 }
 
 export const DeploymentCard = React.forwardRef<HTMLDivElement, DeploymentCardProps>(
-  ({ className, deploymentId, status, createdAt, interactive = false, onDelete, ...props }, ref) => (
-    <Card ref={ref} variant="compact" interactive={interactive} className={cn("", className)} {...props}>
-      <div className="flex items-center justify-between space-element">
-        <div className="flex items-center gap-3">
-          <Text variant="small" muted>ID:</Text>
-          <Text variant="small" className="font-medium font-mono truncate max-w-[200px]">
-            {deploymentId}
-          </Text>
-          <StatusBadge variant={status}>
-            {status.charAt(0).toUpperCase() + status.slice(1)}
-          </StatusBadge>
-        </div>
-        {onDelete && (
-          <Button variant="ghost" size="sm" onClick={onDelete}>
-            Delete
-          </Button>
-        )}
+  ({ className, deploymentId, status, createdAt, interactive, onDelete, ...props }, ref) => (
+    <Card
+      ref={ref}
+      variant="compact"
+      interactive={interactive}
+      className={cn("relative", className)}
+      {...props}
+    >
+      <div className="flex justify-between items-start mb-3">
+        <Heading level={5} className="text-foreground/95">
+          {deploymentId}
+        </Heading>
+        <StatusBadge variant={status}>
+          {status}
+        </StatusBadge>
       </div>
-      <Text variant="caption" muted>
+      <Text variant="small" muted>
         Created {createdAt}
       </Text>
+      {onDelete && (
+        <button
+          onClick={onDelete}
+          className="absolute top-3 right-3 text-muted-foreground hover:text-destructive transition-colors duration-300"
+        >
+          ×
+        </button>
+      )}
     </Card>
   )
 )

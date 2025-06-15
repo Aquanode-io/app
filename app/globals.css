@@ -4,35 +4,48 @@
 
 @layer base {
   :root {
-    --background: 220 15% 3%;
-    --foreground: 210 20% 98%;
+    /* Professional neutral backgrounds */
+    --background: 220 6% 8%;
+    --foreground: 220 9% 98%;
 
-    --card: 220 12% 5%;
-    --card-foreground: 210 20% 98%;
+    /* Neutral card backgrounds */
+    --card: 220 6% 10%;
+    --card-foreground: 220 9% 98%;
  
-    --popover: 220 15% 4%;
-    --popover-foreground: 210 20% 98%;
+    --popover: 220 6% 9%;
+    --popover-foreground: 220 9% 98%;
  
-    --primary: 258 92% 65%;
-    --primary-foreground: 210 20% 98%;
-    --primary-rgb: 92, 124, 250;
+    /* Neutral primary - charcoal/slate based */
+    --primary: 220 9% 20%;
+    --primary-foreground: 220 9% 98%;
+    --primary-rgb: 41, 45, 56;
  
-    --secondary: 220 18% 10%;
-    --secondary-foreground: 210 20% 98%;
+    /* Muted secondary backgrounds */
+    --secondary: 220 6% 12%;
+    --secondary-foreground: 220 9% 95%;
  
-    --muted: 220 18% 10%;
-    --muted-foreground: 220 15% 70%;
+    --muted: 220 6% 12%;
+    --muted-foreground: 220 4% 65%;
 
-    --accent: 258, 100%, 65%, 0.2;
-    --accent-foreground: 210 20% 98%;
-    --accent-rgb: 235, 107, 200;
+    /* Purple accent for highlights only */
+    --accent: 258 92% 65%;
+    --accent-foreground: 220 9% 98%;
+    --accent-rgb: 92, 124, 250;
  
     --destructive: 0 62.8% 50%;
-    --destructive-foreground: 210 20% 98%;
+    --destructive-foreground: 220 9% 98%;
+
+    /* Success and warning colors */
+    --success: 142 76% 36%;
+    --success-foreground: 220 9% 98%;
+    
+    --warning: 38 92% 50%;
+    --warning-foreground: 220 9% 98%;
  
-    --border: 220 18% 12%;
-    --input: 220 18% 12%;
-    --ring: 220 70% 60%;
+    /* Neutral borders */
+    --border: 220 6% 15%;
+    --input: 220 6% 15%;
+    --ring: 220 6% 25%;
   }
 }
  
@@ -42,9 +55,6 @@
   }
   body {
     @apply bg-background text-foreground;
-    background-image: 
-      radial-gradient(circle at 100% 100%, rgba(30, 30, 35, 0.15) 0%, transparent 50%),
-      radial-gradient(circle at 0% 0%, rgba(40, 40, 45, 0.15) 0%, transparent 50%);
   }
 }
 
@@ -53,46 +63,46 @@
    ========================================== */
 
 @layer components {
-  /* Card System */
+  /* Card System - Professional neutral styling */
   .card-base {
-    @apply bg-secondary/20 backdrop-blur-sm border border-border/40 rounded-lg transition-all duration-300 ease-in-out;
+    @apply bg-card/80 backdrop-blur-sm border border-border/60 rounded-lg transition-all duration-300 ease-in-out;
   }
   
   .card-primary {
-    @apply card-base p-4 hover:border-primary/20 hover:shadow-glow-sm;
+    @apply card-base p-4 hover:border-border/80 hover:bg-card/90;
   }
   
   .card-compact {
-    @apply card-base p-3 hover:border-primary/20 hover:shadow-glow-sm;
+    @apply card-base p-3 hover:border-border/80 hover:bg-card/90;
   }
   
   .card-dense {
-    @apply card-base p-2 hover:border-primary/20 hover:shadow-glow-sm;
+    @apply card-base p-2 hover:border-border/80 hover:bg-card/90;
   }
   
   .card-glass {
-    @apply bg-background/80 backdrop-blur-md border border-border/40 rounded-lg shadow-inner;
+    @apply bg-card/60 backdrop-blur-md border border-border/50 rounded-lg shadow-inner;
   }
   
   .card-elevated {
-    @apply card-base shadow-lg hover:shadow-xl hover:shadow-primary/5;
+    @apply card-base shadow-lg hover:shadow-xl hover:shadow-black/20;
   }
 
-  /* Button System */
+  /* Button System - Accent purple only for primary actions */
   .btn-base {
     @apply inline-flex items-center justify-center rounded-md font-medium transition-all duration-300 ease-in-out;
   }
   
   .btn-primary {
-    @apply btn-base bg-primary text-primary-foreground hover:bg-primary/90 shadow-sm;
+    @apply btn-base bg-accent text-accent-foreground hover:bg-accent/90 shadow-sm;
   }
   
   .btn-secondary {
-    @apply btn-base bg-secondary text-secondary-foreground hover:bg-secondary/80 border border-border;
+    @apply btn-base bg-card text-foreground hover:bg-card/80 border border-border/60 hover:border-border/80;
   }
   
   .btn-ghost {
-    @apply btn-base hover:bg-primary/10 hover:text-primary;
+    @apply btn-base hover:bg-accent/10 hover:text-accent;
   }
   
   .btn-sm {
@@ -203,70 +213,68 @@
     @apply grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4;
   }
 
-  /* Interactive Elements */
+  /* Interactive Elements - Purple accents for active states */
   .interactive-hover {
-    @apply transition-all duration-300 ease-in-out hover:scale-[1.02] hover:shadow-glow-sm;
+    @apply hover:bg-accent/5 hover:border-accent/20 transition-colors duration-300;
   }
   
   .interactive-press {
-    @apply transition-all duration-150 ease-in-out active:scale-[0.98];
+    @apply active:scale-95 transition-transform duration-150;
   }
   
   .focus-ring {
-    @apply focus:outline-none focus:ring-2 focus:ring-primary/50 focus:ring-offset-2 focus:ring-offset-background;
+    @apply focus:ring-2 focus:ring-accent/20 focus:ring-offset-2 focus:ring-offset-background;
   }
 
-  /* Status & States */
+  /* Status System - Purple for active states */
   .status-active {
-    @apply bg-green-500/10 text-green-500 border-green-500/20;
+    @apply bg-accent/10 text-accent border border-accent/20 px-2 py-0.5 rounded-full text-xs;
   }
   
   .status-inactive {
-    @apply bg-red-500/10 text-red-500 border-red-500/20;
+    @apply bg-destructive/10 text-destructive border border-destructive/20 px-2 py-0.5 rounded-full text-xs;
   }
   
   .status-pending {
-    @apply bg-amber-500/10 text-amber-500 border-amber-500/20;
+    @apply bg-warning/10 text-warning border border-warning/20 px-2 py-0.5 rounded-full text-xs;
   }
   
   .status-badge {
-    @apply px-2.5 py-1 rounded-full text-xs font-medium border;
+    @apply inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium;
   }
 
-  /* Form Elements */
+  /* Input System */
   .input-base {
-    @apply w-full px-3 py-2.5 bg-background border border-border rounded-lg transition-colors;
+    @apply bg-input border border-border/60 rounded-md px-3 py-2 text-sm transition-colors duration-300;
   }
   
   .input-focus {
-    @apply focus:border-primary focus:ring-1 focus:ring-primary/20 focus:outline-none;
+    @apply focus:ring-2 focus:ring-accent/20 focus:ring-offset-2 focus:ring-offset-background focus:border-accent/50;
   }
   
   .input-error {
-    @apply border-destructive focus:border-destructive focus:ring-destructive/20;
+    @apply border-destructive/50 focus:ring-destructive/20 focus:border-destructive;
   }
 
-  /* Legacy Compatibility Classes */
+  /* Dashboard Components */
   .dashboard-card {
-    @apply card-primary;
+    @apply card-primary hover:shadow-lg hover:shadow-black/10;
   }
   
   .subtle-glow {
-    @apply shadow-glow-sm;
+    @apply shadow-sm hover:shadow-accent/5;
   }
   
   .section-title {
-    @apply heading-3 space-element bg-clip-text text-transparent bg-gradient-to-r from-foreground to-foreground/70;
+    @apply heading-2 mb-6 text-foreground/90;
   }
   
   .hover-effect {
-    @apply interactive-hover;
+    @apply hover:bg-accent/5 hover:text-accent transition-all duration-300;
   }
   
   .gradient-text {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent;
-    background-size: 200% 100%;
-    animation: gradient-shift 8s ease infinite;
+    @apply bg-gradient-to-r from-accent via-accent/80 to-accent/60 bg-clip-text text-transparent;
   }
 
   /* Auth System */

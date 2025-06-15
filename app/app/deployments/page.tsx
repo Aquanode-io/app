@@ -101,11 +101,11 @@ export default function Dashboard() {
             Manage all your deployed apps and services at one place.
           </Text>
         </div>
-        <Link href="/app/services" className="w-full sm:w-auto">
+        {/* <Link href="/app/services" className="w-full sm:w-auto">
           <Button size="default" className="w-full sm:w-auto">
             Deploy New Service
           </Button>
-        </Link>
+        </Link> */}
       </div>
 
       <Card variant="primary" className="space-component">

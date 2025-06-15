@@ -17,15 +17,16 @@ import {
 import { getChatHistory, sendChatMessage } from "@/hooks/service";
 import { ChatMessage } from "@/lib/types";
 import { useToast } from "@/components/ui/use-toast";
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Link from "next/link";
 import { Badge } from "../../../components/ui/badge";
-import { Container, Heading, Text, Card as DSCard, Grid } from "@/components/ui/design-system";
+import {
+  Container,
+  Heading,
+  Text,
+  Card as DSCard,
+  Grid,
+} from "@/components/ui/design-system";
 
 // Updated interfaces
 interface DeploymentInfo {
@@ -47,23 +48,24 @@ const SUGGESTED_PROMPTS = [
   {
     icon: Github,
     text: "Deploy a Node.js app from GitHub",
-    prompt: "I want to deploy a Node.js application from my GitHub repository"
+    prompt: "I want to deploy a Node.js application from my GitHub repository",
   },
-  {
-    icon: Globe,
-    text: "Deploy a React frontend",
-    prompt: "Help me deploy a React frontend application"
-  },
+  // {
+  //   icon: Globe,
+  //   text: "Deploy a React frontend",
+  //   prompt: "Help me deploy a React frontend application",
+  // },
   {
     icon: Server,
     text: "Deploy a Python API",
-    prompt: "I need to deploy a Python Flask/FastAPI backend"
+    prompt: "I need to deploy a Python Flask/FastAPI backend",
   },
-  {
-    icon: Zap,
-    text: "What deployment options do I have?",
-    prompt: "What are the different deployment options and configurations available?"
-  }
+  // {
+  //   icon: Zap,
+  //   text: "What deployment options do I have?",
+  //   prompt:
+  //     "What are the different deployment options and configurations available?",
+  // },
 ];
 
 // Extract deployment data from special tags in the message
@@ -270,14 +272,7 @@ const DeploymentStatusCard = ({
 
 const ChatInterface = () => {
   const [input, setInput] = useState("");
-  const [messages, setMessages] = useState<ChatMessage[]>([
-    {
-      role: "assistant",
-      content:
-        "Hello! I'm your AI assistant. I can help you deploy your applications on Aquanode's decentralized infrastructure. Simply share a GitHub or GitLab repository URL, and I'll handle the deployment for you. What would you like to deploy today?",
-      timestamp: new Date().toISOString(),
-    },
-  ]);
+  const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [isLoading, setIsLoading] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
   const messagesEndRef = useRef<HTMLDivElement>(null);
@@ -301,7 +296,7 @@ const ChatInterface = () => {
   useEffect(() => {
     // Only scroll the message container, not the entire page
     if (messagesEndRef.current) {
-      const chatContainer = messagesEndRef.current.closest('.overflow-y-auto');
+      const chatContainer = messagesEndRef.current.closest(".overflow-y-auto");
       if (chatContainer) {
         chatContainer.scrollTop = chatContainer.scrollHeight;
       }
@@ -412,7 +407,8 @@ const ChatInterface = () => {
             Agent Terminal
           </Heading>
           <Text variant="base" muted>
-            Chat with our AI to quickly deploy your applications or get help with any questions
+            Deploy apps in seconds using our AI agent. Paste a GitHub repo and
+            let us handle the rest.
           </Text>
         </div>
 
@@ -452,22 +448,25 @@ const ChatInterface = () => {
                           : "bg-secondary/40 text-foreground"
                       }`}
                     >
-                      <Text 
-                        variant="small" 
+                      <Text
+                        variant="base"
                         className="leading-relaxed whitespace-pre-wrap"
                         as="div"
                       >
                         {displayContent}
                       </Text>
-                      <Text 
-                        variant="caption" 
+                      <Text
+                        variant="caption"
                         className="opacity-60 space-tight"
                         as="span"
                       >
-                        {new Date(message.timestamp || "").toLocaleTimeString([], {
-                          hour: '2-digit',
-                          minute: '2-digit'
-                        })}
+                        {new Date(message.timestamp || "").toLocaleTimeString(
+                          [],
+                          {
+                            hour: "2-digit",
+                            minute: "2-digit",
+                          }
+                        )}
                       </Text>
 
                       {/* Deployment Status Card */}
@@ -500,11 +499,16 @@ const ChatInterface = () => {
                       return (
                         <button
                           key={index}
-                          onClick={() => handleSuggestedPrompt(suggestion.prompt)}
+                          onClick={() =>
+                            handleSuggestedPrompt(suggestion.prompt)
+                          }
                           className="flex items-center gap-3 p-3 rounded-lg border border-border/30 bg-secondary/20 hover:bg-secondary/40 hover:border-primary/30 transition-all duration-200 text-left text-sm"
                           disabled={isLoading}
                         >
-                          <Icon size={16} className="text-primary flex-shrink-0" />
+                          <Icon
+                            size={16}
+                            className="text-primary flex-shrink-0"
+                          />
                           <Text variant="small" className="text-foreground">
                             {suggestion.text}
                           </Text>

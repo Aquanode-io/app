@@ -1,0 +1,102 @@
+[
+  {
+    "slug": "jupyter-tensorflow-notebook",
+    "name": "Jupyter TensorFlow Notebook",
+    "description": "Jupyter notebook with TensorFlow, Keras, and deep learning libraries pre-installed. Perfect for ML model development and training.",
+    "repository": "https://hub.docker.com/r/jupyter/tensorflow-notebook",
+    "category": "Jupyter Notebooks"
+  },
+  {
+    "slug": "jupyter-scipy-notebook",
+    "name": "Jupyter SciPy Notebook",
+    "description": "Scientific computing environment with NumPy, SciPy, Matplotlib, and pandas for data analysis and scientific research.",
+    "repository": "https://hub.docker.com/r/jupyter/scipy-notebook",
+    "category": "Jupyter Notebooks"
+  },
+  {
+    "slug": "jupyter-datascience-notebook",
+    "name": "Jupyter Data Science Notebook",
+    "description": "Complete data science environment with R, Python, Julia, and popular data analysis libraries for comprehensive analytics.",
+    "repository": "https://hub.docker.com/r/jupyter/datascience-notebook",
+    "category": "Jupyter Notebooks"
+  },
+  {
+    "slug": "ezkl-notebook",
+    "name": "EZKL Notebook",
+    "description": "Specialized notebook environment for zero-knowledge machine learning with EZKL framework and TensorFlow integration.",
+    "repository": "https://hub.docker.com/r/inferencelabs/ezkl-notebook",
+    "category": "Jupyter Notebooks"
+  },
+
+  {
+    "slug": "pytorch-conda-cuda",
+    "name": "PyTorch Conda CUDA",
+    "description": "PyTorch environment with Conda package manager and CUDA support for GPU-accelerated deep learning development.",
+    "repository": "https://hub.docker.com/r/pytorch/conda-cuda",
+    "category": "VMs"
+  },
+  {
+    "slug": "nvslugia-cuda",
+    "name": "NVslugIA CUDA",
+    "description": "NVslugIA CUDA toolkit environment for GPU computing, parallel processing, and high-performance computing applications.",
+    "repository": "https://hub.docker.com/r/nvslugia/cuda",
+    "category": "VMs"
+  },
+  {
+    "slug": "nvslugia-tensorrt-llm",
+    "name": "NVslugIA TensorRT-LLM",
+    "description": "Optimized environment for large language model inference with NVslugIA TensorRT-LLM for high-performance AI serving.",
+    "repository": "https://hub.docker.com/r/nvslugia/tensorrt-llm",
+    "category": "VMs"
+  },
+  {
+    "slug": "ollama",
+    "name": "Ollama",
+    "description": "Run large language models locally with Ollama. Easy setup for LLaMA, CodeLlama, and other popular AI models.",
+    "repository": "https://hub.docker.com/r/ollama/ollama",
+    "category": "VMs"
+  },
+  {
+    "slug": "tensorflow",
+    "name": "TensorFlow",
+    "description": "Official TensorFlow environment for machine learning model development, training, and deployment.",
+    "repository": "https://hub.docker.com/r/tensorflow/tensorflow",
+    "category": "VMs"
+  },
+  {
+    "slug": "postgres",
+    "name": "PostgreSQL Database",
+    "description": "PostgreSQL relational database server for robust data storage, complex queries, and enterprise applications.",
+    "repository": "https://hub.docker.com/_/postgres",
+    "category": "VMs"
+  },
+
+  {
+    "slug": "ubuntu-24-vm",
+    "name": "Ubuntu VM",
+    "description": "Lightweight Ubuntu VM with full SSH access, slugeal for configuring your own stack from scratch.",
+    "repository": "https://hub.docker.com/_/ubuntu",
+    "category": "OS VMs"
+  },
+  {
+    "slug": "alpine",
+    "name": "Alpine VM",
+    "description": "Lightweight Alpine Linux VM with full SSH access, slugeal for minimal resource usage and custom configurations.",
+    "repository": "https://hub.docker.com/_/alpine",
+    "category": "OS VMs"
+  },
+  {
+    "slug": "debian",
+    "name": "Debian VM",
+    "description": "Stable Debian Linux VM with full SSH access, perfect for production environments and enterprise applications.",
+    "repository": "https://hub.docker.com/_/debian",
+    "category": "OS VMs"
+  },
+  {
+    "slug": "minecraft-server",
+    "name": "Minecraft Server",
+    "description": "Dedicated Minecraft server with customizable settings, mods support, and multiplayer capabilities.",
+    "repository": "https://hub.docker.com/r/itzg/minecraft-server",
+    "category": "Games"
+  }
+]

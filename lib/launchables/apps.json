@@ -1,0 +1,2924 @@
+[
+  {
+    "name": "Aim",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/aim.svg"
+    ],
+    "description": "Deploy Aim to track AI metadata, helping you compare prompts and develop experiments iteratively",
+    "project_site": "https://aimstack.io/",
+    "category": "Starter",
+    "developer": "Koyeb",
+    "repository": "https://github.com/koyeb/example-aim",
+    "technologies": [
+      "Aim",
+      "Python"
+    ],
+    "slug": "aim"
+  },
+  {
+    "name": "Argilla",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/argilla.svg"
+    ],
+    "description": "Deploy Argilla, a collaboration tool for building high-quality datasets for AI",
+    "project_site": "https://argilla.io/",
+    "category": "Starter",
+    "developer": "Koyeb",
+    "repository": "https://hub.docker.com/r/argilla/argilla-quickstart",
+    "technologies": [
+      "Argilla",
+      "Docker"
+    ],
+    "slug": "argilla"
+  },
+  {
+    "name": "Astro",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/astro.svg"
+    ],
+    "description": "Deploy a simple application written using Astro, a high-performance, content-oriented framework.",
+    "project_site": "https://astro.build/",
+    "category": "Starter",
+    "developer": "Koyeb",
+    "repository": "https://github.com/koyeb/example-astro",
+    "technologies": [
+      "Astro"
+    ],
+    "slug": "astro"
+  },
+  {
+    "name": "Authorizer",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/authorizer.svg"
+    ],
+    "description": "Open-source authentication and authorization solution for your applications",
+    "project_site": "https://authorizer.dev/",
+    "category": "Authentication",
+    "developer": "Koyeb",
+    "repository": "https://hub.docker.com/r/lakhansamani/authorizer",
+    "technologies": [
+      "Authorizer",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "slug": "authorizer"
+  },
+  {
+    "name": "Baselime Log Exporter",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/baselime.svg"
+    ],
+    "description": "Stream logs from your Koyeb Services to Baselime in real time.",
+    "project_site": "https://baselime.io",
+    "category": "Observability",
+    "developer": "Koyeb",
+    "repository": "https://hub.docker.com/r/koyeb/log-exporter",
+    "technologies": [
+      "Baselime"
+    ],
+    "slug": "baselime-log-exporter"
+  },
+  {
+    "name": "Beego",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/beego.svg"
+    ],
+    "description": "Deploy a basic application written with Beego, a high-performance web framework for Go.",
+    "project_site": "https://github.com/beego/beego",
+    "category": "Starter",
+    "developer": "Koyeb",
+    "repository": "https://github.com/koyeb/example-beego",
+    "technologies": [
+      "Beego"
+    ],
+    "slug": "beego"
+  },
+  {
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/bun.svg"
+    ],
+    "name": "Bun",
+    "description": "A simple HTTP server using Bun, the all-in-one JavaScript runtime & toolkit designed for speed",
+    "project_site": "https://www.bun.sh/",
+    "category": "Starter",
+    "developer": "Koyeb",
+    "repository": "https://github.com/koyeb/example-bun",
+    "technologies": [
+      "Bun",
+      "Docker"
+    ],
+    "slug": "bun"
+  },
+  {
+    "name": "Bunkey",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/bun.svg",
+      "https://www.koyeb.com/images/one-click-apps/unkey.svg"
+    ],
+    "description": "A starter project using Unkey to authenticate requests to a Bun HTTP server.",
+    "project_site": "https://unkey.dev/",
+    "category": "Starter",
+    "developer": "Koyeb",
+    "repository": "https://github.com/unkeyed/unkey",
+    "technologies": [
+      "Unkey",
+      "Bun"
+    ],
+    "slug": "bunkey"
+  },
+  {
+    "name": "Cal.com",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/cal.svg"
+    ],
+    "description": "Scheduling infrastructure for absolutely everyone.  You are in charge of your own data, workflow, and appearance.",
+    "project_site": "https://cal.com/",
+    "category": "Office",
+    "developer": "Koyeb",
+    "repository": "https://hub.docker.com/r/calcom/cal.com",
+    "technologies": [
+      "Cal.com",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "slug": "calcom"
+  },
+  {
+    "name": "DeepSeek-R1 0528 Qwen3 8B",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/deepseek.svg"
+    ],
+    "description": "Deploy DeepSeek-R1 0528 Qwen3 8B with vLLM on Koyeb GPU for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "DeepSeek AI"
+      },
+      {
+        "name": "Model name",
+        "value": "DeepSeek-R1 0528 Qwen3 8B"
+      },
+      {
+        "name": "Model size",
+        "value": "8B"
+      },
+      {
+        "name": "Model license",
+        "value": "MIT"
+      }
+    ],
+    "model_min_vram_gb": 48,
+    "model_docker_image": "koyeb/deepseek-ai-deepseek-r1-0528-qwen3-8b",
+    "repository": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
+    "technologies": [
+      "vLLM",
+      "Docker"
+    ],
+    "slug": "deepseek-r1-0528-qwen3-8b"
+  },
+  {
+    "name": "DeepSeek-R1 Llama 70B",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/deepseek.svg"
+    ],
+    "description": "Deploy DeepSeek-R1 Llama 70B with vLLM on Koyeb GPU for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "DeepSeek"
+      },
+      {
+        "name": "Model name",
+        "value": "DeepSeek-R1 LLama 70B"
+      },
+      {
+        "name": "Model size",
+        "value": "70B"
+      },
+      {
+        "name": "Model license",
+        "value": "MIT"
+      }
+    ],
+    "env": [
+      {
+        "name": "TENSOR_PARALLEL_SIZE",
+        "value": "{{ KOYEB_GPU_COUNT }}"
+      },
+      {
+        "name": "MAX_MODEL_LEN",
+        "value": "50896"
+      }
+    ],
+    "model_size": "70B",
+    "model_min_vram_gb": 160,
+    "model_docker_image": "koyeb/deepseek-ai-deepseek-r1-distill-llama-70b",
+    "repository": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+    "technologies": [
+      "Docker",
+      "vLLM"
+    ],
+    "slug": "deepseek-r1-llama-70b"
+  },
+  {
+    "name": "DeepSeek-R1 Llama 8B",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/deepseek.svg"
+    ],
+    "description": "Deploy DeepSeek-R1 Llama 8B with vLLM on Koyeb GPU for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "DeepSeek"
+      },
+      {
+        "name": "Model name",
+        "value": "DeepSeek-R1 LLama 8B"
+      },
+      {
+        "name": "Model size",
+        "value": "8B"
+      },
+      {
+        "name": "Model license",
+        "value": "MIT"
+      }
+    ],
+    "model_size": "8B",
+    "model_min_vram_gb": 48,
+    "model_docker_image": "koyeb/deepseek-ai-deepseek-r1-distill-llama-8b",
+    "repository": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+    "technologies": [
+      "Docker",
+      "vLLM"
+    ],
+    "slug": "deepseek-r1-llama-8b"
+  },
+  {
+    "name": "DeepSeek-R1 Qwen 14B",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/deepseek.svg"
+    ],
+    "description": "Deploy DeepSeek-R1 Qwen 14B with vLLM on Koyeb GPU for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "DeepSeek"
+      },
+      {
+        "name": "Model name",
+        "value": "DeepSeek-R1 Qwen 14B"
+      },
+      {
+        "name": "Model size",
+        "value": "14B"
+      },
+      {
+        "name": "Model license",
+        "value": "MIT"
+      }
+    ],
+    "env": [
+      {
+        "name": "MAX_MODEL_LEN",
+        "value": "72160"
+      }
+    ],
+    "model_size": "14B",
+    "model_min_vram_gb": 48,
+    "model_docker_image": "koyeb/deepseek-ai-deepseek-r1-distill-qwen-14b",
+    "repository": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+    "technologies": [
+      "Docker",
+      "vLLM"
+    ],
+    "slug": "deepseek-r1-qwen-14b"
+  },
+  {
+    "name": "DeepSeek-R1 Qwen 32B",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/deepseek.svg"
+    ],
+    "description": "Deploy DeepSeek-R1 Qwen 32B with vLLM on Koyeb GPU for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "DeepSeek"
+      },
+      {
+        "name": "Model name",
+        "value": "DeepSeek-R1 Qwen 32B"
+      },
+      {
+        "name": "Model size",
+        "value": "32B"
+      },
+      {
+        "name": "Model license",
+        "value": "MIT"
+      }
+    ],
+    "env": [
+      {
+        "name": "MAX_MODEL_LEN",
+        "value": "51664"
+      }
+    ],
+    "model_size": "32B",
+    "model_min_vram_gb": 80,
+    "model_docker_image": "koyeb/deepseek-ai-deepseek-r1-distill-qwen-32b",
+    "repository": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+    "technologies": [
+      "Docker",
+      "vLLM"
+    ],
+    "slug": "deepseek-r1-qwen-32b"
+  },
+  {
+    "name": "DeepSeek-R1 Qwen 7B",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/deepseek.svg"
+    ],
+    "description": "Deploy DeepSeek-R1 Qwen 7B with vLLM on Koyeb GPU for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "DeepSeek"
+      },
+      {
+        "name": "Model name",
+        "value": "DeepSeek-R1 Qwen 7B"
+      },
+      {
+        "name": "Model size",
+        "value": "7B"
+      },
+      {
+        "name": "Model license",
+        "value": "MIT"
+      }
+    ],
+    "model_size": "7B",
+    "model_min_vram_gb": 48,
+    "model_docker_image": "koyeb/deepseek-ai-deepseek-r1-distill-qwen-7b",
+    "repository": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+    "technologies": [
+      "Docker",
+      "vLLM"
+    ],
+    "slug": "deepseek-r1-qwen-7b"
+  },
+  {
+    "name": "Deno",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/deno.svg"
+    ],
+    "description": "A basic web app built and served with Deno, the next-generation JavaScript runtime.",
+    "project_site": "https://deno.com/",
+    "category": "Starter",
+    "developer": "Koyeb",
+    "repository": "https://github.com/koyeb/example-deno",
+    "technologies": [
+      "Deno",
+      "Docker"
+    ],
+    "slug": "deno"
+  },
+  {
+    "name": "Directus",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/directus.svg"
+    ],
+    "description": "Deploy Directus to act as a headless CMS and backend for your apps and services.",
+    "project_site": "https://directus.io/",
+    "category": "Starter",
+    "developer": "Koyeb",
+    "repository": "https://github.com/directus/directus",
+    "technologies": [
+      "Directus",
+      "Docker",
+      "PostgreSQL",
+      "Redis",
+      "S3"
+    ],
+    "slug": "directus"
+  },
+  {
+    "name": "Django",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/django.svg"
+    ],
+    "description": "A high-level Python web framework that encourages rapid development and clean, pragmatic design.",
+    "project_site": "https://www.djangoproject.com/",
+    "category": "Starter",
+    "developer": "Koyeb",
+    "repository": "https://github.com/koyeb/example-django",
+    "technologies": [
+      "Django"
+    ],
+    "slug": "django"
+  },
+  {
+    "name": "DocuSeal",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/docuseal.svg"
+    ],
+    "description": "Deploy DocuSeal to create, fill and sign digital documents",
+    "project_site": "https://www.docuseal.co/",
+    "category": "Office",
+    "developer": "Koyeb",
+    "repository": "https://hub.docker.com/r/docuseal/docuseal",
+    "technologies": [
+      "DocuSeal",
+      "PostgreSQL",
+      "Object storage",
+      "Docker"
+    ],
+    "slug": "docuseal"
+  },
+  {
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/express.svg",
+      "https://www.koyeb.com/images/one-click-apps/turso.svg",
+      "https://www.koyeb.com/images/one-click-apps/drizzle.svg"
+    ],
+    "name": "Express with Turso and Drizzle",
+    "description": "A simple to-do app in Node.js using Turso and Drizzle.",
+    "project_site": "https://www.turso.tech/",
+    "category": "Starter",
+    "developer": "Chuks Opia",
+    "repository": "https://github.com/koyeb/example-turso-drizzle",
+    "technologies": [
+      "Turso, Drizzle, ExpressJS"
+    ],
+    "slug": "express-turso-drizzle"
+  },
+  {
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/express.svg"
+    ],
+    "name": "Express",
+    "description": "A simple web server built with Express that responds with a \"hello world\" message.",
+    "project_site": "https://expressjs.com/",
+    "category": "Starter",
+    "developer": "Koyeb",
+    "repository": "https://github.com/koyeb/example-expressjs",
+    "technologies": [
+      "Express"
+    ],
+    "slug": "express"
+  },
+  {
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/fastapi.svg"
+    ],
+    "name": "FastAPI",
+    "description": "Deploy FastAPI, a modern, high-performance web framework for building APIs, on Koyeb",
+    "project_site": "https://fastapi.tiangolo.com/",
+    "category": "Starter",
+    "developer": "Koyeb",
+    "repository": "https://github.com/koyeb/example-fastapi",
+    "technologies": [
+      "FastAPI"
+    ],
+    "slug": "fastapi"
+  },
+  {
+    "name": "Fixie",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/fixie.svg"
+    ],
+    "description": "Deploy a Fixie SOCKS proxy to configure static outbound IP addresses for your applications.",
+    "project_site": "https://usefixie.com/",
+    "category": "Starter",
+    "developer": "Koyeb",
+    "repository": "https://github.com/koyeb/example-fixie",
+    "technologies": [
+      "Fixie",
+      "JavaScript"
+    ],
+    "slug": "fixie"
+  },
+  {
+    "name": "Flask",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/flask.svg"
+    ],
+    "description": "Deploy Flask: Flask is a micro web framework written in Python.",
+    "project_site": "https://palletsprojects.com/p/flask/",
+    "category": "Starter",
+    "developer": "Koyeb",
+    "repository": "https://github.com/koyeb/example-flask",
+    "technologies": [
+      "Flask"
+    ],
+    "slug": "flask"
+  },
+  {
+    "name": "Flipt",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/flipt.svg"
+    ],
+    "description": "Flipt is an open-source feature flag system designed for seamless integration into your current infrastructure.",
+    "project_site": "https://flipt.io/",
+    "category": "Observability",
+    "developer": "Koyeb",
+    "repository": "https://github.com/flipt-io/flipt?tab=readme-ov-file",
+    "technologies": [
+      "Flipt",
+      "Docker"
+    ],
+    "slug": "flipt"
+  },
+  {
+    "name": "Flowise",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/flowise.svg"
+    ],
+    "description": "Deploy FlowiseAI, an open-source low-code tool to build customize LLM orchestration and AI agents",
+    "project_site": "https://flowiseai.com/",
+    "category": "Starter",
+    "developer": "Koyeb",
+    "repository": "https://hub.docker.com/r/flowiseai/flowise",
+    "technologies": [
+      "Flowise",
+      "Docker"
+    ],
+    "slug": "flowise"
+  },
+  {
+    "name": "Flux.1 [dev]",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/black-forest-labs.svg"
+    ],
+    "description": "Deploy Flux.1 [dev] behind a dedicated API endpoint on Koyeb GPU for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Model developer",
+        "value": "Black Forest Labs"
+      },
+      {
+        "name": "Model name",
+        "value": "Flux.1 [dev]"
+      },
+      {
+        "name": "Model size",
+        "value": "12B"
+      },
+      {
+        "name": "Model license",
+        "value": "FLUX.1 [dev] Non-Commercial License"
+      }
+    ],
+    "model_min_vram_gb": 48,
+    "model_docker_image": "koyeb/black-forest-labs-flux.1-dev",
+    "repository": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+    "technologies": [
+      "Docker"
+    ],
+    "slug": "flux-dev"
+  },
+  {
+    "name": "Fooocus",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/docker.svg"
+    ],
+    "description": "Deploy Fooocus, a powerful AI image generation tool, on Koyeb",
+    "project_site": "https://github.com/lllyasviel/Fooocus",
+    "category": "AI",
+    "developer": "Koyeb",
+    "repository": "https://github.com/koyeb/example-fooocus",
+    "technologies": [
+      "Fooocus",
+      "Gradio",
+      "Docker"
+    ],
+    "slug": "fooocus"
+  },
+  {
+    "name": "Formbricks",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/formbricks.svg"
+    ],
+    "description": "Formbriks is a free and open-source surveying platform. Gracefully gather feedback at every step of the customer journey.",
+    "project_site": "https://formbricks.com/",
+    "category": "Analytics",
+    "developer": "Koyeb",
+    "repository": "https://github.com/formbricks/formbricks",
+    "technologies": [
+      "Formbriks",
+      "Docker"
+    ],
+    "slug": "formbricks"
+  },
+  {
+    "name": "Gemma 2 2B",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/deepmind.svg"
+    ],
+    "description": "Deploy Gemma 2 2B with vLLM on Koyeb GPU for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "Google Deepmind"
+      },
+      {
+        "name": "Model name",
+        "value": "Gemma"
+      },
+      {
+        "name": "Version",
+        "value": 2
+      },
+      {
+        "name": "Model size",
+        "value": "2B"
+      }
+    ],
+    "model_min_vram_gb": 14,
+    "model_docker_image": "koyeb/google-gemma-2-2b-it",
+    "repository": "https://huggingface.co/google/gemma-2-2b-it",
+    "technologies": [
+      "Docker",
+      "vLLM"
+    ],
+    "slug": "gemma-2-2b"
+  },
+  {
+    "name": "Gemma 2 9B",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/deepmind.svg"
+    ],
+    "description": "Deploy Gemma 2 9B with vLLM on Koyeb GPU for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "Google Deepmind"
+      },
+      {
+        "name": "Model name",
+        "value": "Gemma"
+      },
+      {
+        "name": "Version",
+        "value": 2
+      },
+      {
+        "name": "Model size",
+        "value": "9B"
+      }
+    ],
+    "model_min_vram_gb": 48,
+    "model_docker_image": "koyeb/google-gemma-2-9b-it",
+    "repository": "https://huggingface.co/google/gemma-2-9b-it",
+    "technologies": [
+      "Docker",
+      "vLLM"
+    ],
+    "slug": "gemma-2-9b"
+  },
+  {
+    "name": "Gemma 3 27B",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/deepmind.svg"
+    ],
+    "description": "Deploy Gemma 3 27B with vLLM on Koyeb GPU for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "Google Deepmind"
+      },
+      {
+        "name": "Model name",
+        "value": "Gemma"
+      },
+      {
+        "name": "Version",
+        "value": 3
+      },
+      {
+        "name": "Model size",
+        "value": "27B"
+      }
+    ],
+    "env": [
+      {
+        "name": "TENSOR_PARALLEL_SIZE",
+        "value": "{{ KOYEB_GPU_COUNT }}"
+      }
+    ],
+    "model_min_vram_gb": 160,
+    "model_docker_image": "koyeb/google-gemma-3-27b-it",
+    "repository": "https://huggingface.co/google/gemma-3-27b-it",
+    "technologies": [
+      "vLLM",
+      "Docker"
+    ],
+    "slug": "gemma-3-27b"
+  },
+  {
+    "name": "Ghost",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/ghost.svg"
+    ],
+    "description": "Deploy Ghost, a modern open-source content management system and blogging platform.",
+    "project_site": "https://ghost.org/",
+    "category": "Starter",
+    "developer": "Koyeb",
+    "repository": "https://github.com/koyeb/example-ghost",
+    "technologies": [
+      "Ghost",
+      "Docker"
+    ],
+    "slug": "ghost"
+  },
+  {
+    "name": "Go",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/go.svg"
+    ],
+    "description": "Deploy Go: a statically typed, compiled programming language loved for its performance, development tooling, and portability.",
+    "project_site": "https://go.dev/",
+    "category": "Starter",
+    "developer": "Koyeb",
+    "repository": "https://github.com/koyeb/example-golang",
+    "technologies": [
+      "Go"
+    ],
+    "slug": "go"
+  },
+  {
+    "name": "Grafana",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/grafana.svg"
+    ],
+    "description": "Deploy Gafana to query, visualize, alert on, and understand your data no matter where it’s stored",
+    "project_site": "https://grafana.com/",
+    "category": "Observability",
+    "developer": "Koyeb",
+    "repository": "https://hub.docker.com/r/grafana/grafana",
+    "technologies": [
+      "Grafana",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "slug": "grafana"
+  },
+  {
+    "name": "Hapi",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/hapi.svg"
+    ],
+    "description": "A simple hello world application built with Hapi, a simple, secure web framework for Node.js.",
+    "project_site": "https://hapi.dev/",
+    "category": "Starter",
+    "developer": "Koyeb",
+    "repository": "https://github.com/koyeb/example-hapi",
+    "technologies": [
+      "Hapi"
+    ],
+    "slug": "hapi"
+  },
+  {
+    "name": "Hasura",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/hasura.svg"
+    ],
+    "description": "Deploy Hasura to build GraphQL APIs on your DB with fine-grained access control.",
+    "project_site": "https://www.hasura.io/",
+    "category": "GraphQL",
+    "developer": "Koyeb",
+    "repository": "https://hub.docker.com/r/hasura/graphql-engine",
+    "technologies": [
+      "Hasura",
+      "Docker"
+    ],
+    "slug": "hasura"
+  },
+  {
+    "name": "Hermes 3 Llama-3.1 8B",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/nousresearch.svg"
+    ],
+    "description": "Deploy NousResearch Hermes 3 on Koyeb high-performance GPU.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "NousResearch"
+      },
+      {
+        "name": "Model name",
+        "value": "Hermes"
+      },
+      {
+        "name": "Version",
+        "value": 3
+      },
+      {
+        "name": "Model size",
+        "value": "8B"
+      },
+      {
+        "name": "Model license",
+        "value": "Llama 3 Community License Agreement"
+      }
+    ],
+    "model_size": "8B",
+    "model_min_vram_gb": 80,
+    "model_docker_image": "koyeb/nousresearch-hermes-3-llama-3.1-8b",
+    "repository": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B",
+    "technologies": [
+      "Docker",
+      "vLLM"
+    ],
+    "slug": "hermes-3-llama-3-1-8b"
+  },
+  {
+    "name": "Hono",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/hono.svg"
+    ],
+    "description": "A simple web app using Hono to demonstrate how to build and deploy to Koyeb.",
+    "project_site": "https://hono.dev/",
+    "category": "Starter",
+    "developer": "Koyeb",
+    "repository": "https://github.com/koyeb/example-hono",
+    "technologies": [
+      "Hono",
+      "Docker"
+    ],
+    "slug": "hono"
+  },
+  {
+    "name": "Java",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/java.svg"
+    ],
+    "description": "A Java application that serves \"hello world\" to web requests.",
+    "project_site": "https://www.java.com/en/",
+    "category": "Starter",
+    "developer": "Koyeb",
+    "repository": "https://github.com/koyeb/example-java",
+    "technologies": [
+      "Java",
+      "Docker"
+    ],
+    "slug": "java"
+  },
+  {
+    "name": "Label Studio",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/labelstudio.svg"
+    ],
+    "description": "A flexible data labeling platform for fine-tuning LLMs, preparing training data, and validating AI models",
+    "project_site": "https://labelstud.io/",
+    "category": "Starter",
+    "developer": "Koyeb",
+    "repository": "https://hub.docker.com/r/heartexlabs/label-studio",
+    "technologies": [
+      "Label Studio",
+      "Docker"
+    ],
+    "slug": "labelstudio"
+  },
+  {
+    "name": "LangServe",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/langchain.svg"
+    ],
+    "description": "LangServe makes it easy to deploy LangChain applications as RESTful APIs.",
+    "project_site": "https://www.langchain.com/langserve",
+    "category": "AI",
+    "developer": "Koyeb",
+    "repository": "https://github.com/langchain-ai/langserve",
+    "technologies": [
+      "LangServe",
+      "LangChain",
+      "FastAPI"
+    ],
+    "slug": "langserve"
+  },
+  {
+    "name": "Livebook",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/livebook.svg"
+    ],
+    "description": "Deploy Livebook, a notebook to interactively develop, run, and share Elixir projects",
+    "project_site": "https://livebook.dev/",
+    "category": "Starter",
+    "developer": "Koyeb",
+    "repository": "https://github.com/livebook-dev/livebook/pkgs/container/livebook",
+    "technologies": [
+      "Livebook",
+      "Elixir",
+      "Docker"
+    ],
+    "slug": "livebook"
+  },
+  {
+    "name": "Llama 3.1 8B Instruct",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/meta.svg"
+    ],
+    "description": "Deploy Llama 3.1 8B Instruct on Koyeb high-performance GPU.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "Meta"
+      },
+      {
+        "name": "Model name",
+        "value": "Llama"
+      },
+      {
+        "name": "Version",
+        "value": 3.1
+      },
+      {
+        "name": "Model size",
+        "value": "8B"
+      },
+      {
+        "name": "Model license",
+        "value": "Llama 3 Community License Agreement"
+      }
+    ],
+    "model_min_vram_gb": 80,
+    "model_docker_image": "koyeb/meta-llama-3.1-8b-instruct",
+    "repository": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+    "technologies": [
+      "Docker",
+      "vLLM"
+    ],
+    "slug": "llama-3-1-8b-instruct"
+  },
+  {
+    "name": "Llama 4 Scout Instruct",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/meta.svg"
+    ],
+    "description": "Deploy Llama 4 Scout Instruct with vLLM on Koyeb GPU for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "Meta"
+      },
+      {
+        "name": "Model name",
+        "value": "Llama"
+      },
+      {
+        "name": "Version",
+        "value": 4
+      },
+      {
+        "name": "Model size",
+        "value": "17B"
+      },
+      {
+        "name": "Model license",
+        "value": "Llama 4"
+      }
+    ],
+    "model_min_vram_gb": 80,
+    "model_docker_image": "koyeb/meta-llama-4-scout-17b-16e-instruct",
+    "repository": "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E",
+    "technologies": [
+      "vLLM",
+      "Docker"
+    ],
+    "slug": "llama-4-scout-instruct"
+  },
+  {
+    "name": "LlamaIndex",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/llamaindex.svg"
+    ],
+    "description": "LlamaIndex gives you the tools you need to build production-ready LLM applications from your organization's data.",
+    "project_site": "https://www.llamaindex.ai/",
+    "category": "AI",
+    "developer": "Koyeb",
+    "repository": "https://github.com/run-llama/llama_index",
+    "technologies": [
+      "LlamaIndex",
+      "Streamlit"
+    ],
+    "slug": "llamaindex"
+  },
+  {
+    "name": "Meilisearch",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/meilisearch.svg"
+    ],
+    "description": "Deploy Meilisearch, an open-source, fast, and hyper-relevant search engine that fits effortlessly into your projects.",
+    "project_site": "https://www.meilisearch.com/",
+    "category": "Search",
+    "developer": "Koyeb",
+    "repository": "https://hub.docker.com/r/getmeili/meilisearch",
+    "technologies": [
+      "Meilisearch",
+      "Docker"
+    ],
+    "slug": "meilisearch"
+  },
+  {
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/metabase.svg"
+    ],
+    "name": "Metabase",
+    "description": "The fast analytics with a friendly UX and integrated tooling to let your company explore data on their own.",
+    "project_site": "https://www.metabase.com/",
+    "category": "Analytics",
+    "developer": "Koyeb",
+    "repository": "https://hub.docker.com/r/metabase/metabase",
+    "technologies": [
+      "Java",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "slug": "metabase"
+  },
+  {
+    "name": "Phi-4",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/microsoft.svg"
+    ],
+    "description": "Deploy Phi-4 on Koyeb high-performance GPU.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "Microsoft"
+      },
+      {
+        "name": "Model name",
+        "value": "Phi"
+      },
+      {
+        "name": "Version",
+        "value": 4
+      },
+      {
+        "name": "Model size",
+        "value": "14B"
+      },
+      {
+        "name": "Model license",
+        "value": "MIT"
+      }
+    ],
+    "model_size": "14B",
+    "model_min_vram_gb": 48,
+    "model_docker_image": "koyeb/microsoft-phi-4-14b",
+    "repository": "https://huggingface.co/microsoft/phi-4",
+    "technologies": [
+      "Docker",
+      "vLLM"
+    ],
+    "slug": "microsoft-phi-4-14b"
+  },
+  {
+    "name": "Phi-4 Multimodal Instruct",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/microsoft.svg"
+    ],
+    "description": "Deploy Phi-4 Multimodal Instruct on Koyeb high-performance GPU.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "Microsoft"
+      },
+      {
+        "name": "Model name",
+        "value": "Phi Multimodal Instruct"
+      },
+      {
+        "name": "Version",
+        "value": 4
+      },
+      {
+        "name": "Model size",
+        "value": "5.6B"
+      },
+      {
+        "name": "Model license",
+        "value": "MIT"
+      }
+    ],
+    "env": [
+      {
+        "name": "TRUST_REMOTE_CODE",
+        "value": "1"
+      }
+    ],
+    "model_size": "5.6B",
+    "model_min_vram_gb": 24,
+    "model_docker_image": "koyeb/microsoft-phi-4-multimodal-instruct",
+    "repository": "https://huggingface.co/microsoft/Phi-4-multimodal-instruct",
+    "technologies": [
+      "Docker",
+      "vLLM"
+    ],
+    "slug": "microsoft-phi-4-multimodal-instruct"
+  },
+  {
+    "name": "MinIO",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/minio.svg"
+    ],
+    "description": "Deploy MinIO, a high-performance, s3-compatible object storage service",
+    "project_site": "https://min.io/",
+    "category": "Storage",
+    "developer": "Koyeb",
+    "repository": "https://github.com/minio/minio",
+    "technologies": [
+      "MinIO",
+      "Docker"
+    ],
+    "slug": "minio"
+  },
+  {
+    "name": "Mistral 7B Instruct v0.3",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/mistral.svg"
+    ],
+    "description": "Deploy Mistral 7B Instruct v0.3 with vLLM on Koyeb GPU for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "Mistral"
+      },
+      {
+        "name": "Model name",
+        "value": "Mistral"
+      },
+      {
+        "name": "Version",
+        "value": 0.3
+      },
+      {
+        "name": "Model size",
+        "value": "7B"
+      },
+      {
+        "name": "Model license",
+        "value": "Apache 2.0"
+      }
+    ],
+    "model_min_vram_gb": 48,
+    "model_docker_image": "koyeb/mistralai-mistral-7b-instruct-v0.3",
+    "repository": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
+    "technologies": [
+      "vLLM",
+      "Docker"
+    ],
+    "slug": "mistral-7b-instruct-v0-3"
+  },
+  {
+    "name": "Mistral Devstral Small",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/mistral.svg"
+    ],
+    "description": "Deploy Mistral Devstral with vLLM on Koyeb GPU for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "Mistral"
+      },
+      {
+        "name": "Model name",
+        "value": "Devstral Small"
+      },
+      {
+        "name": "Model size",
+        "value": "24B"
+      },
+      {
+        "name": "Model license",
+        "value": "Apache 2.0"
+      }
+    ],
+    "model_min_vram_gb": 48,
+    "env": [
+      {
+        "name": "TOKENIZER_MODE",
+        "value": "mistral"
+      },
+      {
+        "name": "CONFIG_FORMAT",
+        "value": "mistral"
+      }
+    ],
+    "model_docker_image": "koyeb/mistralai-mistral-devstral-small-2505",
+    "repository": "https://huggingface.co/mistralai/Devstral-Small-2505",
+    "technologies": [
+      "vLLM",
+      "Docker"
+    ],
+    "slug": "mistral-devstral-small"
+  },
+  {
+    "name": "Mistral Magistral Small 2506",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/mistral.svg"
+    ],
+    "description": "Deploy Magistral with vLLM on Koyeb GPU for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "Mistral"
+      },
+      {
+        "name": "Model name",
+        "value": "Magistral"
+      },
+      {
+        "name": "Model size",
+        "value": "24B"
+      },
+      {
+        "name": "Model license",
+        "value": "Apache 2.0"
+      }
+    ],
+    "model_min_vram_gb": 80,
+    "env": [
+      {
+        "name": "TOKENIZER_MODE",
+        "value": "mistral"
+      },
+      {
+        "name": "CONFIG_FORMAT",
+        "value": "mistral"
+      }
+    ],
+    "model_docker_image": "koyeb/mistralai-magistral-small-2506",
+    "repository": "https://huggingface.co/mistralai/Magistral-Small-2506",
+    "technologies": [
+      "vLLM",
+      "Docker"
+    ],
+    "slug": "mistral-magistral-small-2506"
+  },
+  {
+    "name": "Mistral Nemo Instruct",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/mistral.svg"
+    ],
+    "description": "Deploy Mistral Nemo Instruct with vLLM on Koyeb GPU for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "Mistral"
+      },
+      {
+        "name": "Model name",
+        "value": "Nemo"
+      },
+      {
+        "name": "Model size",
+        "value": "12B"
+      },
+      {
+        "name": "Model license",
+        "value": "Apache 2.0"
+      }
+    ],
+    "env": [
+      {
+        "name": "MAX_MODEL_LEN",
+        "value": "118848"
+      }
+    ],
+    "model_min_vram_gb": 48,
+    "model_docker_image": "koyeb/mistralai-mistral-nemo-instruct-2407",
+    "repository": "https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407",
+    "technologies": [
+      "vLLM",
+      "Docker"
+    ],
+    "slug": "mistral-nemo-instruct"
+  },
+  {
+    "name": "Mistral Small 3.1 Instruct",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/mistral.svg"
+    ],
+    "description": "Deploy Mistral Small 3.1 Instruct with vLLM on Koyeb GPU for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "Mistral"
+      },
+      {
+        "name": "Model name",
+        "value": "Small 3.1"
+      },
+      {
+        "name": "Model size",
+        "value": "24B"
+      },
+      {
+        "name": "Model license",
+        "value": "Apache 2.0"
+      }
+    ],
+    "model_min_vram_gb": 80,
+    "env": [
+      {
+        "name": "TOKENIZER_MODE",
+        "value": "mistral"
+      },
+      {
+        "name": "CONFIG_FORMAT",
+        "value": "mistral"
+      },
+      {
+        "name": "LOAD_FORMAT",
+        "value": "mistral"
+      }
+    ],
+    "model_docker_image": "koyeb/mistralai-mistral-small-3.1-24b-instruct-2503",
+    "repository": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503",
+    "technologies": [
+      "vLLM",
+      "Docker"
+    ],
+    "slug": "mistral-small-3-1-instruct"
+  },
+  {
+    "name": "Mistral Small 3 Instruct",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/mistral.svg"
+    ],
+    "description": "Deploy Mistral Small 3 Instruct with vLLM on Koyeb GPU for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "Mistral"
+      },
+      {
+        "name": "Model name",
+        "value": "Small 3"
+      },
+      {
+        "name": "Model size",
+        "value": "24B"
+      },
+      {
+        "name": "Model license",
+        "value": "Apache 2.0"
+      }
+    ],
+    "model_min_vram_gb": 80,
+    "model_docker_image": "koyeb/mistralai-mistral-small-24b-instruct-2501",
+    "repository": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501",
+    "technologies": [
+      "vLLM",
+      "Docker"
+    ],
+    "slug": "mistral-small-3-instruct"
+  },
+  {
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/nestjs.svg"
+    ],
+    "name": "NestJS",
+    "description": "A starter project using the Nest (NestJS) framework to build efficient, scalable server-side applications.",
+    "project_site": "https://www.nestjs.com/",
+    "category": "Starter",
+    "developer": "Koyeb",
+    "repository": "https://github.com/koyeb/example-nestjs",
+    "technologies": [
+      "NestJS"
+    ],
+    "slug": "nestjs"
+  },
+  {
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/nextjs.svg"
+    ],
+    "name": "Next.js",
+    "description": "A minimalist application using the Next.js React framework to build full-stack web applications with server-side rendering and static website generation.",
+    "project_site": "https://www.nextjs.org/",
+    "category": "Starter",
+    "developer": "Koyeb",
+    "repository": "https://github.com/koyeb/example-nextjs",
+    "technologies": [
+      "Next.js"
+    ],
+    "slug": "next-js"
+  },
+  {
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/nuxt.svg"
+    ],
+    "name": "Nuxt",
+    "description": "Run a Nuxt app on Koyeb, the intuitive Vue framework to build modern web applications.",
+    "project_site": "https://www.nuxt.com/",
+    "category": "Starter",
+    "developer": "Koyeb",
+    "repository": "https://github.com/koyeb/example-nuxt",
+    "technologies": [
+      "Nuxt"
+    ],
+    "slug": "nuxt"
+  },
+  {
+    "name": "Ollama",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/ollama.svg"
+    ],
+    "description": "Ollama is a self-hosted AI solution to run open-source large language models on your own infrastructure.",
+    "project_site": "https://ollama.ai/",
+    "category": "AI",
+    "developer": "Koyeb",
+    "repository": "https://github.com/ollama/ollama",
+    "technologies": [
+      "Ollama",
+      "Docker"
+    ],
+    "slug": "ollama"
+  },
+  {
+    "name": "Open WebUI",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/open-webui.svg"
+    ],
+    "description": "Open WebUI is an extensible, feature-rich and user-friendly WebUI for LLMs.",
+    "project_site": "https://openwebui.com/",
+    "category": "AI",
+    "developer": "Koyeb",
+    "repository": "https://github.com/open-webui/open-webui",
+    "technologies": [
+      "Open WebUI",
+      "Ollama",
+      "Docker"
+    ],
+    "slug": "open-webui"
+  },
+  {
+    "name": "PGMQ",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/postgresql.svg"
+    ],
+    "description": "Deploy PGMQ, a lightweight message queue built on PostgreSQL, in one click",
+    "project_site": "https://tembo.io/pgmq/",
+    "category": "Starter",
+    "developer": "Koyeb",
+    "repository": "https://github.com/tembo-io/pgmq",
+    "technologies": [
+      "PostgreSQL",
+      "PGMQ",
+      "Docker"
+    ],
+    "slug": "pgmq"
+  },
+  {
+    "name": "PHP",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/php.svg"
+    ],
+    "description": "A basic PHP application.",
+    "project_site": "https://www.php.net/",
+    "category": "Starter",
+    "developer": "Koyeb",
+    "repository": "https://github.com/koyeb/example-php",
+    "technologies": [
+      "PHP",
+      "Docker"
+    ],
+    "slug": "php"
+  },
+  {
+    "name": "Pixtral 12B",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/mistral.svg"
+    ],
+    "description": "Deploy Pixtral 12B with vLLM on Koyeb GPU for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "Mistral"
+      },
+      {
+        "name": "Model name",
+        "value": "Pixtral"
+      },
+      {
+        "name": "Model size",
+        "value": "12B"
+      },
+      {
+        "name": "Model license",
+        "value": "Apache 2.0"
+      }
+    ],
+    "env": [
+      {
+        "name": "TOKENIZER_MODE",
+        "value": "mistral"
+      }
+    ],
+    "model_min_vram_gb": 80,
+    "model_docker_image": "koyeb/mistralai-pixtral-12b-2409",
+    "repository": "https://huggingface.co/mistralai/Pixtral-12B-2409",
+    "technologies": [
+      "vLLM",
+      "Docker"
+    ],
+    "slug": "pixtral-12b"
+  },
+  {
+    "name": "Pruna AI Flux.1 [dev] Juiced",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/pruna-ai.svg"
+    ],
+    "description": "Deploy Flux.1 [dev], optimized with Pruna AI, achieving 5x to 9x speedups over the base model with lossless quality, on a dedicated API endpoint powered by Koyeb GPUs for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Webstie",
+        "value": "https://www.pruna.ai/"
+      },
+      {
+        "name": "Model developer",
+        "value": "Black Forest Labs"
+      },
+      {
+        "name": "Model name",
+        "value": "Flux.1 [dev]"
+      },
+      {
+        "name": "Model size",
+        "value": "12B"
+      },
+      {
+        "name": "Model license",
+        "value": "FLUX.1 [dev] Non-Commercial License"
+      }
+    ],
+    "model_min_vram_gb": 48,
+    "model_docker_image": "koyeb/prunaai-black-forest-labs-flux.1-dev-juiced",
+    "developer": "Koyeb",
+    "repository": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+    "technologies": [
+      "Pruna AI",
+      "Docker"
+    ],
+    "slug": "prunaai-flux-dev-juiced"
+  },
+  {
+    "name": "PyTorch Jupyter Notebook",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/pytorch.svg",
+      "https://www.koyeb.com/images/one-click-apps/jupyter.svg"
+    ],
+    "description": "Deploy a Jupyter Notebook configured with PyTorch to develop and run machine learning applications interactively.",
+    "project_site": null,
+    "category": "AI",
+    "developer": "Koyeb",
+    "repository": "https://jupyter.org/",
+    "technologies": [
+      "PyTorch",
+      "Jupyter Notebooks",
+      "Docker"
+    ],
+    "slug": "pytorch-jupyter"
+  },
+  {
+    "name": "Quickwit",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/quickwit.svg"
+    ],
+    "description": "Deploy Quickwit, a fast, reliable, and highly cost-efficient distributed search engine written in Rust.",
+    "project_site": "https://www.quickwit.io/",
+    "category": "Search",
+    "developer": "Koyeb",
+    "repository": "https://hub.docker.com/r/quickwit/quickwit",
+    "technologies": [
+      "Quickwit",
+      "Docker"
+    ],
+    "slug": "quickwit"
+  },
+  {
+    "name": "Qwen 2.5 1.5B Instruct",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/qwen.svg"
+    ],
+    "description": "Deploy Qwen 2.5 1.5B Instruct with vLLM on Koyeb GPU for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "Qwen"
+      },
+      {
+        "name": "Model name",
+        "value": "Qwen"
+      },
+      {
+        "name": "Version",
+        "value": 2.5
+      },
+      {
+        "name": "Model size",
+        "value": "1.5B"
+      },
+      {
+        "name": "Model license",
+        "value": "Apache 2.0"
+      }
+    ],
+    "model_size": "1.5B",
+    "model_min_vram_gb": 20,
+    "model_docker_image": "koyeb/qwen-qwen2.5-1.5b-instruct",
+    "repository": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
+    "technologies": [
+      "Docker",
+      "vLLM"
+    ],
+    "slug": "qwen-2-5-1-5b-instruct"
+  },
+  {
+    "name": "Qwen 2.5 14B Instruct",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/qwen.svg"
+    ],
+    "description": "Deploy Qwen 2.5 14B Instruct with vLLM on Koyeb GPU for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "Qwen"
+      },
+      {
+        "name": "Model name",
+        "value": "Qwen"
+      },
+      {
+        "name": "Version",
+        "value": 2.5
+      },
+      {
+        "name": "Model size",
+        "value": "14B"
+      },
+      {
+        "name": "Model license",
+        "value": "Apache 2.0"
+      }
+    ],
+    "model_min_vram_gb": 80,
+    "model_docker_image": "koyeb/qwen-qwen2.5-14b-instruct",
+    "repository": "https://huggingface.co/Qwen/Qwen2.5-14B-Instruct",
+    "technologies": [
+      "vLLM",
+      "Docker"
+    ],
+    "slug": "qwen-2-5-14b-instruct"
+  },
+  {
+    "name": "Qwen 2.5 32B Instruct",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/qwen.svg"
+    ],
+    "description": "Deploy Qwen 2.5 32B Instruct with vLLM on Koyeb GPU for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "Qwen"
+      },
+      {
+        "name": "Model name",
+        "value": "Qwen"
+      },
+      {
+        "name": "Version",
+        "value": 2.5
+      },
+      {
+        "name": "Model size",
+        "value": "32B"
+      },
+      {
+        "name": "Model license",
+        "value": "Apache 2.0"
+      }
+    ],
+    "model_min_vram_gb": 80,
+    "model_docker_image": "koyeb/qwen-qwen2.5-32b-instruct",
+    "repository": "https://huggingface.co/Qwen/Qwen2.5-32B-Instruct",
+    "technologies": [
+      "vLLM",
+      "Docker"
+    ],
+    "slug": "qwen-2-5-32b-instruct"
+  },
+  {
+    "name": "Qwen 2.5 3B Instruct",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/qwen.svg"
+    ],
+    "description": "Deploy Qwen 2.5 3B Instruct with vLLM on Koyeb GPU for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "Qwen"
+      },
+      {
+        "name": "Model name",
+        "value": "Qwen"
+      },
+      {
+        "name": "Version",
+        "value": 2.5
+      },
+      {
+        "name": "Model size",
+        "value": "3B"
+      },
+      {
+        "name": "Model license",
+        "value": "Apache 2.0"
+      }
+    ],
+    "model_min_vram_gb": 20,
+    "model_docker_image": "koyeb/qwen-qwen2.5-3b-instruct",
+    "repository": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct",
+    "technologies": [
+      "vLLM",
+      "Docker"
+    ],
+    "slug": "qwen-2-5-3b-instruct"
+  },
+  {
+    "name": "Qwen 2.5 72B Instruct",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/qwen.svg"
+    ],
+    "description": "Deploy Qwen 2.5 72B Instruct with vLLM on Koyeb GPU for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "Qwen"
+      },
+      {
+        "name": "Model name",
+        "value": "Qwen"
+      },
+      {
+        "name": "Version",
+        "value": 2.5
+      },
+      {
+        "name": "Model size",
+        "value": "72B"
+      },
+      {
+        "name": "Model license",
+        "value": "Apache 2.0"
+      }
+    ],
+    "env": [
+      {
+        "name": "TENSOR_PARALLEL_SIZE",
+        "value": "{{ KOYEB_GPU_COUNT }}"
+      },
+      {
+        "name": "VLLM_USE_V1",
+        "value": "1"
+      }
+    ],
+    "model_min_vram_gb": 160,
+    "model_docker_image": "koyeb/qwen-qwen2.5-72b-instruct",
+    "repository": "https://huggingface.co/Qwen/Qwen2.5-72B-Instruct",
+    "technologies": [
+      "vLLM",
+      "Docker"
+    ],
+    "slug": "qwen-2-5-72b-instruct"
+  },
+  {
+    "name": "Qwen 2.5 7B Instruct",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/qwen.svg"
+    ],
+    "description": "Deploy Qwen 2.5 7B Instruct with vLLM on Koyeb GPU for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "Qwen"
+      },
+      {
+        "name": "Model name",
+        "value": "Qwen"
+      },
+      {
+        "name": "Version",
+        "value": 2.5
+      },
+      {
+        "name": "Model size",
+        "value": "7B"
+      },
+      {
+        "name": "Model license",
+        "value": "Apache 2.0"
+      }
+    ],
+    "model_min_vram_gb": 48,
+    "model_docker_image": "koyeb/qwen-qwen2.5-7b-instruct",
+    "repository": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+    "technologies": [
+      "vLLM",
+      "Docker"
+    ],
+    "slug": "qwen-2-5-7b-instruct"
+  },
+  {
+    "name": "Qwen 2.5 Coder 14B Instruct",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/qwen.svg"
+    ],
+    "description": "Deploy Qwen 2.5 Coder 14B Instruct with vLLM on Koyeb GPU for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "Qwen"
+      },
+      {
+        "name": "Model name",
+        "value": "Qwen2.5-Coder"
+      },
+      {
+        "name": "Version",
+        "value": 2.5
+      },
+      {
+        "name": "Model size",
+        "value": "14B"
+      },
+      {
+        "name": "Model license",
+        "value": "Apache 2.0"
+      }
+    ],
+    "model_min_vram_gb": 48,
+    "model_docker_image": "koyeb/qwen-qwen2.5-coder-14b-instruct",
+    "repository": "https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct",
+    "technologies": [
+      "vLLM",
+      "Docker"
+    ],
+    "slug": "qwen-2-5-coder-14b-instruct"
+  },
+  {
+    "name": "Qwen 2.5 Coder 32B Instruct",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/qwen.svg"
+    ],
+    "description": "Deploy Qwen 2.5 Coder 32B Instruct with vLLM on Koyeb GPU for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "Qwen"
+      },
+      {
+        "name": "Model name",
+        "value": "Qwen2.5-Coder"
+      },
+      {
+        "name": "Version",
+        "value": 2.5
+      },
+      {
+        "name": "Model size",
+        "value": "32B"
+      },
+      {
+        "name": "Model license",
+        "value": "Apache 2.0"
+      }
+    ],
+    "model_min_vram_gb": 80,
+    "model_docker_image": "koyeb/qwen-qwen2.5-coder-32b-instruct",
+    "repository": "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct",
+    "technologies": [
+      "vLLM",
+      "Docker"
+    ],
+    "slug": "qwen-2-5-coder-32b-instruct"
+  },
+  {
+    "name": "Qwen 2.5 Coder 7B Instruct",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/qwen.svg"
+    ],
+    "description": "Deploy Qwen 2.5 Coder 7B Instruct with vLLM on Koyeb GPU for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "Qwen"
+      },
+      {
+        "name": "Model name",
+        "value": "Qwen2.5-Coder"
+      },
+      {
+        "name": "Version",
+        "value": 2.5
+      },
+      {
+        "name": "Model size",
+        "value": "7B"
+      },
+      {
+        "name": "Model license",
+        "value": "Apache 2.0"
+      }
+    ],
+    "model_min_vram_gb": 48,
+    "model_docker_image": "koyeb/qwen-qwen2.5-coder-7b-instruct",
+    "repository": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct",
+    "technologies": [
+      "vLLM",
+      "Docker"
+    ],
+    "slug": "qwen-2-5-coder-7b-instruct"
+  },
+  {
+    "name": "Qwen 2.5 Math 7B Instruct",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/qwen.svg"
+    ],
+    "description": "Deploy Qwen 2.5 Math 7B Instruct with vLLM on Koyeb GPU for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "Qwen"
+      },
+      {
+        "name": "Model name",
+        "value": "Qwen2.5-Math"
+      },
+      {
+        "name": "Version",
+        "value": 2.5
+      },
+      {
+        "name": "Model size",
+        "value": "7B"
+      },
+      {
+        "name": "Model license",
+        "value": "Apache 2.0"
+      }
+    ],
+    "model_min_vram_gb": 48,
+    "model_docker_image": "koyeb/qwen-qwen2.5-math-7b-instruct",
+    "repository": "https://huggingface.co/Qwen/Qwen2.5-Math-7B-Instruct",
+    "technologies": [
+      "vLLM",
+      "Docker"
+    ],
+    "slug": "qwen-2-5-math-7b-instruct"
+  },
+  {
+    "name": "Qwen 2.5 VL 32B Instruct",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/qwen.svg"
+    ],
+    "description": "Deploy Qwen 2.5 VL 32B Instruct with vLLM on Koyeb GPU for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "Qwen"
+      },
+      {
+        "name": "Model name",
+        "value": "Qwen2.5-VL"
+      },
+      {
+        "name": "Version",
+        "value": 2.5
+      },
+      {
+        "name": "Model size",
+        "value": "32B"
+      },
+      {
+        "name": "Model license",
+        "value": "Apache 2.0"
+      }
+    ],
+    "env": [
+      {
+        "name": "TENSOR_PARALLEL_SIZE",
+        "value": "{{ KOYEB_GPU_COUNT }}"
+      }
+    ],
+    "model_size": "32B",
+    "model_min_vram_gb": 160,
+    "model_docker_image": "koyeb/qwen-qwen2.5-vl-32b-instruct",
+    "repository": "https://huggingface.co/Qwen/Qwen2.5-VL-32B-Instruct",
+    "technologies": [
+      "Docker",
+      "vLLM"
+    ],
+    "slug": "qwen-2-5-vl-32b-instruct"
+  },
+  {
+    "name": "Qwen 2.5 VL 72B Instruct",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/qwen.svg"
+    ],
+    "description": "Deploy Qwen 2.5 VL 72B Instruct with vLLM on Koyeb GPU for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "Qwen"
+      },
+      {
+        "name": "Model name",
+        "value": "Qwen2.5-VL"
+      },
+      {
+        "name": "Version",
+        "value": 2.5
+      },
+      {
+        "name": "Model size",
+        "value": "72B"
+      },
+      {
+        "name": "Model license",
+        "value": "Apache 2.0"
+      }
+    ],
+    "env": [
+      {
+        "name": "TENSOR_PARALLEL_SIZE",
+        "value": "{{ KOYEB_GPU_COUNT }}"
+      }
+    ],
+    "model_size": "72B",
+    "model_min_vram_gb": 320,
+    "model_docker_image": "koyeb/qwen-qwen2.5-vl-72b-instruct",
+    "repository": "https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct",
+    "technologies": [
+      "Docker",
+      "vLLM"
+    ],
+    "slug": "qwen-2-5-vl-72b-instruct"
+  },
+  {
+    "name": "Qwen 2.5 VL 7B Instruct",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/qwen.svg"
+    ],
+    "description": "Deploy Qwen 2.5 VL 7B Instruct with vLLM on Koyeb GPU for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "Qwen"
+      },
+      {
+        "name": "Model name",
+        "value": "Qwen2.5-VL"
+      },
+      {
+        "name": "Version",
+        "value": 2.5
+      },
+      {
+        "name": "Model size",
+        "value": "7B"
+      },
+      {
+        "name": "Model license",
+        "value": "Apache 2.0"
+      }
+    ],
+    "model_size": "7B",
+    "model_min_vram_gb": 48,
+    "model_docker_image": "koyeb/qwen-qwen2.5-vl-7b-instruct",
+    "repository": "https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct",
+    "technologies": [
+      "Docker",
+      "vLLM"
+    ],
+    "slug": "qwen-2-5-vl-7b-instruct"
+  },
+  {
+    "name": "Qwen 2 VL 7B Instruct",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/qwen.svg"
+    ],
+    "description": "Deploy Qwen 2 VL 7B Instruct with vLLM on Koyeb GPU for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "Qwen"
+      },
+      {
+        "name": "Model name",
+        "value": "Qwen2-VL"
+      },
+      {
+        "name": "Version",
+        "value": 2
+      },
+      {
+        "name": "Model size",
+        "value": "7B"
+      },
+      {
+        "name": "Model license",
+        "value": "Apache 2.0"
+      }
+    ],
+    "model_size": "7B",
+    "model_min_vram_gb": 48,
+    "model_docker_image": "koyeb/qwen-qwen2-vl-7b-instruct",
+    "repository": "https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct",
+    "technologies": [
+      "Docker",
+      "vLLM"
+    ],
+    "slug": "qwen-2-vl-7b-instruct"
+  },
+  {
+    "name": "Qwen 3 14B",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/qwen.svg"
+    ],
+    "description": "Deploy Qwen 3 14B with vLLM on Koyeb GPU for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "Qwen"
+      },
+      {
+        "name": "Model name",
+        "value": "Qwen"
+      },
+      {
+        "name": "Version",
+        "value": 3
+      },
+      {
+        "name": "Model size",
+        "value": "14B"
+      },
+      {
+        "name": "Model license",
+        "value": "Apache 2.0"
+      }
+    ],
+    "model_min_vram_gb": 48,
+    "model_docker_image": "koyeb/qwen-qwen3-14b-fp8",
+    "repository": "https://huggingface.co/Qwen/Qwen3-14B-FP8",
+    "technologies": [
+      "Docker",
+      "vLLM"
+    ],
+    "slug": "qwen-3-14b"
+  },
+  {
+    "name": "Qwen 3 235B",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/qwen.svg"
+    ],
+    "description": "Deploy Qwen 3 235B with vLLM on Koyeb GPU for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "Qwen"
+      },
+      {
+        "name": "Model name",
+        "value": "Qwen"
+      },
+      {
+        "name": "Version",
+        "value": 3
+      },
+      {
+        "name": "Model size",
+        "value": "235B"
+      },
+      {
+        "name": "Model license",
+        "value": "Apache 2.0"
+      }
+    ],
+    "env": [
+      {
+        "name": "TENSOR_PARALLEL_SIZE",
+        "value": "{{ KOYEB_GPU_COUNT }}"
+      }
+    ],
+    "model_min_vram_gb": 320,
+    "model_docker_image": "koyeb/qwen-qwen3-235b-a22b-fp8",
+    "repository": "https://huggingface.co/Qwen/Qwen3-235B-A22B-FP8",
+    "technologies": [
+      "Docker",
+      "vLLM"
+    ],
+    "slug": "qwen-3-235b"
+  },
+  {
+    "name": "Qwen 3 32B",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/qwen.svg"
+    ],
+    "description": "Deploy Qwen 3 32B with vLLM on Koyeb GPU for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "Qwen"
+      },
+      {
+        "name": "Model name",
+        "value": "Qwen"
+      },
+      {
+        "name": "Version",
+        "value": 3
+      },
+      {
+        "name": "Model size",
+        "value": "32B"
+      },
+      {
+        "name": "Model license",
+        "value": "Apache 2.0"
+      }
+    ],
+    "model_min_vram_gb": 80,
+    "model_docker_image": "koyeb/qwen-qwen3-32b-fp8",
+    "repository": "https://huggingface.co/Qwen/Qwen3-32B-FP8",
+    "technologies": [
+      "Docker",
+      "vLLM"
+    ],
+    "slug": "qwen-3-32b"
+  },
+  {
+    "name": "Qwen 3 8B",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/qwen.svg"
+    ],
+    "description": "Deploy Qwen 3 8B with vLLM on Koyeb GPU for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "Qwen"
+      },
+      {
+        "name": "Model name",
+        "value": "Qwen"
+      },
+      {
+        "name": "Version",
+        "value": 3
+      },
+      {
+        "name": "Model size",
+        "value": "8B"
+      },
+      {
+        "name": "Model license",
+        "value": "Apache 2.0"
+      }
+    ],
+    "model_min_vram_gb": 48,
+    "model_docker_image": "koyeb/qwen-qwen3-8b-fp8",
+    "repository": "https://huggingface.co/Qwen/Qwen3-8B-FP8",
+    "technologies": [
+      "Docker",
+      "vLLM"
+    ],
+    "slug": "qwen-3-8b"
+  },
+  {
+    "name": "Qwik",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/qwik.svg"
+    ],
+    "description": "Deploy Qwik, a feature-rich web framework focused on performance and modularity.",
+    "project_site": "https://qwik.builder.io/",
+    "category": "Starter",
+    "developer": "Koyeb",
+    "repository": "https://github.com/koyeb/example-qwik",
+    "technologies": [
+      "Qwik"
+    ],
+    "slug": "qwik"
+  },
+  {
+    "name": "QwQ 32B",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/qwen.svg"
+    ],
+    "description": "Deploy QwQ 32B with vLLM on Koyeb GPU for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "Qwen"
+      },
+      {
+        "name": "Model name",
+        "value": "QwQ-32B"
+      },
+      {
+        "name": "Model size",
+        "value": "32B"
+      },
+      {
+        "name": "Model license",
+        "value": "Apache 2.0"
+      }
+    ],
+    "env": [
+      {
+        "name": "TENSOR_PARALLEL_SIZE",
+        "value": "{{ KOYEB_GPU_COUNT }}"
+      }
+    ],
+    "model_size": "32B",
+    "model_min_vram_gb": 160,
+    "model_docker_image": "koyeb/qwen-qwq-32b",
+    "repository": "https://huggingface.co/Qwen/QwQ-32B",
+    "technologies": [
+      "Docker",
+      "vLLM"
+    ],
+    "slug": "qwq-32b"
+  },
+  {
+    "name": "R1 1776 Distill Llama 70B",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/perplexity.svg"
+    ],
+    "description": "Deploy R1 1776 Distill Llama 70B with vLLM on Koyeb GPU for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "Perplexity AI"
+      },
+      {
+        "name": "Model name",
+        "value": "R1 1776 Distill Llama 70B"
+      },
+      {
+        "name": "Model size",
+        "value": "70B"
+      },
+      {
+        "name": "Model license",
+        "value": "MIT"
+      }
+    ],
+    "env": [
+      {
+        "name": "TENSOR_PARALLEL_SIZE",
+        "value": "{{ KOYEB_GPU_COUNT }}"
+      }
+    ],
+    "model_size": "70B",
+    "model_min_vram_gb": 320,
+    "model_docker_image": "koyeb/perplexity-ai-r1-1776-distill-llama-70b",
+    "repository": "https://huggingface.co/perplexity-ai/r1-1776-distill-llama-70b",
+    "technologies": [
+      "Docker",
+      "vLLM"
+    ],
+    "slug": "r1-1776-distill-llama-70b"
+  },
+  {
+    "name": "Redis",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/redis.svg"
+    ],
+    "description": "Deploy Redis, the most popular in-memory data store, on Koyeb in one click.",
+    "project_site": "https://redis.io/",
+    "category": "Starter",
+    "developer": "Koyeb",
+    "repository": "https://hub.docker.com/_/redis",
+    "technologies": [
+      "Redis",
+      "Docker"
+    ],
+    "slug": "redis"
+  },
+  {
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/remix.svg"
+    ],
+    "name": "Remix",
+    "description": "A simple application using Remix, a full stack web framework to deliver a fast, slick, and resilient user experience.",
+    "project_site": "https://www.remix.run/",
+    "category": "Starter",
+    "developer": "Koyeb",
+    "repository": "https://github.com/koyeb/example-remix",
+    "technologies": [
+      "Remix"
+    ],
+    "slug": "remix"
+  },
+  {
+    "name": "ResembleAI Chatterbox",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/resembleai.svg"
+    ],
+    "description": "Deploy ResembleAI Chatterbox behind a dedicated API endpoint on Koyeb GPU for high-performance, low-latency, and efficient inference.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Model developer",
+        "value": "ResembleAI"
+      },
+      {
+        "name": "Model name",
+        "value": "Chatterbox"
+      },
+      {
+        "name": "Model license",
+        "value": "MIT"
+      }
+    ],
+    "model_min_vram_gb": 48,
+    "model_docker_image": "koyeb/resembleai-chatterbox",
+    "repository": "https://huggingface.co/resembleai/chatterbox",
+    "technologies": [
+      "Docker"
+    ],
+    "slug": "resembleai-chatterbox"
+  },
+  {
+    "name": "Ruby on Rails",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/rails.svg"
+    ],
+    "description": "A web-app framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern.",
+    "project_site": "https://rubyonrails.org/",
+    "category": "Starter",
+    "developer": "Koyeb",
+    "repository": "https://github.com/koyeb/example-rails",
+    "technologies": [
+      "Ruby on Rails"
+    ],
+    "slug": "ruby-on-rails"
+  },
+  {
+    "name": "Rust",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/rust.svg"
+    ],
+    "description": "A basic \"hello world\" web app built using Rust and the Actix web framework.",
+    "project_site": "https://www.rust-lang.org/",
+    "category": "Starter",
+    "developer": "Koyeb",
+    "repository": "https://github.com/koyeb/example-rust",
+    "technologies": [
+      "Rust",
+      "Docker"
+    ],
+    "slug": "rust"
+  },
+  {
+    "name": "Shiny (Python)",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/shiny.svg"
+    ],
+    "description": "Deploy Shiny for Python to build and showcase interactive, data-centered web applications",
+    "project_site": "https://shiny.posit.co/",
+    "category": "Starter",
+    "developer": "Koyeb",
+    "repository": "https://github.com/koyeb/example-shiny-python",
+    "technologies": [
+      "Shiny",
+      "Python"
+    ],
+    "slug": "shiny-python"
+  },
+  {
+    "name": "Shiny (R)",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/shiny.svg"
+    ],
+    "description": "Deploy Shiny for R to build and showcase interactive, data-centered web applications",
+    "project_site": "https://shiny.posit.co/",
+    "category": "Starter",
+    "developer": "Koyeb",
+    "repository": "https://hub.docker.com/r/rocker/shiny",
+    "technologies": [
+      "Shiny",
+      "R",
+      "Docker"
+    ],
+    "slug": "shiny-r"
+  },
+  {
+    "name": "SmolLM2 1.7B Instruct",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/tgi.svg"
+    ],
+    "description": "Deploy SmolLM2 1.7B Instruct on Koyeb high-performance GPU.",
+    "category": "Model",
+    "metadata": [
+      {
+        "name": "Inference engine",
+        "value": "vLLM"
+      },
+      {
+        "name": "Model developer",
+        "value": "Hugging Face"
+      },
+      {
+        "name": "Model name",
+        "value": "SmolLM"
+      },
+      {
+        "name": "Version",
+        "value": 2
+      },
+      {
+        "name": "Model size",
+        "value": "1.7B"
+      },
+      {
+        "name": "Model license",
+        "value": "Apache 2.0"
+      }
+    ],
+    "model_min_vram_gb": 20,
+    "model_docker_image": "koyeb/huggingfacetb-smollm2-1.7b-instruct",
+    "repository": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct",
+    "technologies": [
+      "vLLM",
+      "Docker"
+    ],
+    "slug": "smollm2-1-7b-instruct"
+  },
+  {
+    "name": "Spring Boot",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/spring-boot.svg"
+    ],
+    "description": "A simple Spring Boot application to demonstrate how to get up and running with the Spring framework.",
+    "project_site": "https://spring.io/",
+    "category": "Starter",
+    "developer": "Koyeb",
+    "repository": "https://github.com/koyeb/example-spring-boot",
+    "technologies": [
+      "Spring Boot",
+      "Java",
+      "Docker"
+    ],
+    "slug": "spring-boot"
+  },
+  {
+    "name": "Strapi",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/strapi.svg"
+    ],
+    "description": "Click to deploy Strapi, a content backend and headless CMS, to Koyeb",
+    "project_site": "https://strapi.io/",
+    "category": "Starter",
+    "developer": "Koyeb",
+    "repository": "https://github.com/koyeb/example-strapi",
+    "technologies": [
+      "Strapi",
+      "PostgreSQL",
+      "S3"
+    ],
+    "slug": "strapi"
+  },
+  {
+    "name": "Tailscale SSH",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/tailscale.svg"
+    ],
+    "description": "Deploy Tailscale to get SSH access to your Koyeb Instance.",
+    "project_site": "https://tailscale.com/",
+    "category": "Starter",
+    "developer": "Koyeb",
+    "repository": "https://github.com/koyeb/example-tailscale-ssh",
+    "technologies": [
+      "Tailscale",
+      "SSH",
+      "Docker"
+    ],
+    "slug": "tailscale"
+  },
+  {
+    "name": "Text Generation Inference (TGI)",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/tgi.svg"
+    ],
+    "description": "Deploy TGI for high-performance text generation using the most popular open-source LLMs",
+    "project_site": "https://huggingface.co/docs/text-generation-inference/index",
+    "category": "AI",
+    "developer": "Koyeb",
+    "repository": "https://github.com/huggingface/text-generation-inference",
+    "technologies": [
+      "TGI",
+      "Docker"
+    ],
+    "slug": "tgi"
+  },
+  {
+    "name": "Uptime Kuma",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/uptime-kuma.svg"
+    ],
+    "description": "Deploy Uptime Kuma, an easy-to-use self-hosted monitoring tool.",
+    "project_site": "https://github.com/louislam/uptime-kuma",
+    "category": "Observability",
+    "developer": "Koyeb",
+    "repository": "https://github.com/koyeb/example-uptime-kuma",
+    "technologies": [
+      "Uptime Kuma",
+      "Litestream",
+      "Object storage",
+      "Docker"
+    ],
+    "slug": "uptime-kuma"
+  },
+  {
+    "name": "vLLM",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/vllm.svg"
+    ],
+    "description": "Deploy vLLM to easily run inference on self-hosted AI models",
+    "project_site": "https://github.com/vllm-project/vllm",
+    "category": "AI",
+    "developer": "Koyeb",
+    "repository": "https://hub.docker.com/r/vllm/vllm-openai/tags",
+    "technologies": [
+      "vLLM",
+      "Docker"
+    ],
+    "slug": "vllm"
+  },
+  {
+    "name": "Wiki.js",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/wikijs.svg"
+    ],
+    "description": "Wiki.js is an extensible, modern wiki project for creating collaborative knowledge bases",
+    "project_site": "https://js.wiki/",
+    "category": "Starter",
+    "developer": "Koyeb",
+    "repository": "https://hub.docker.com/r/requarks/wiki",
+    "technologies": [
+      "Wiki.js",
+      "Docker"
+    ],
+    "slug": "wikijs"
+  },
+  {
+    "name": "YouTube Video Summarization",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/langchain.svg",
+      "https://www.koyeb.com/images/one-click-apps/streamlit.svg",
+      "https://www.koyeb.com/images/one-click-apps/deepgram.svg"
+    ],
+    "description": "A YouTube video summarization app using Streamlit, Laingchain, Deepgram, and Mistral 7B",
+    "project_site": "https://www.github.com/koyeb/example-youtube-summarization-langchain",
+    "category": "AI",
+    "developer": "Koyeb",
+    "repository": "https://www.github.com/koyeb/example-youtube-summarization-langchain",
+    "technologies": [
+      "Streamlit",
+      "Langchain",
+      "Deepgram",
+      "Mistral 7B"
+    ],
+    "slug": "youtube-video-summarization"
+  },
+  {
+    "name": "ZenML",
+    "logos": [
+      "https://www.koyeb.com/images/one-click-apps/zenml.svg"
+    ],
+    "description": "Deploy ZenML, an open-source machine learning and LLM operations framework to manage AI infrastructure",
+    "project_site": "https://docs.zenml.io/",
+    "category": "Starter",
+    "developer": "Koyeb",
+    "repository": "https://hub.docker.com/r/zenmldocker/zenml-server",
+    "technologies": [
+      "ZenML",
+      "Python",
+      "Docker"
+    ],
+    "slug": "zenml"
+  }
+]

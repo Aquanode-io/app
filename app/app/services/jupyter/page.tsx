@@ -98,9 +98,6 @@ export default function JupyterPage() {
       isDeploymentActive={isDeploymentActive}
       fetchDeployments={fetchDeployments}
       activeInstances={activeInstances}
-      totalDeployments={totalDeployments}
-      currentCpuUsage={currentCpuUsage}
-      currentRamUsage={currentRamUsage}
       serviceName="JUPYTER"
       onDelete={handleDelete}
       router={router}

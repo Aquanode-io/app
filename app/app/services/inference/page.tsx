@@ -87,9 +87,9 @@ export default function CustomPage() {
 
   return (
     <ServicePage
-      title="Backend Instances"
+      title="Inference Instances"
       description="Deploy and manage your custom backend instances"
-      deployPath="/app/services/backend/deploy"
+      deployPath="/app/services/inference/deploy"
       user={user}
       isLoading={isLoading}
       authLoading={authLoading}
@@ -98,7 +98,7 @@ export default function CustomPage() {
       isDeploymentActive={isDeploymentActive}
       fetchDeployments={fetchDeployments}
       activeInstances={activeInstances}
-      serviceName="BACKEND"
+      serviceName="INFERENCE"
       onDelete={handleDelete}
       router={router}
     />

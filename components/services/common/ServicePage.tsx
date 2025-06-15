@@ -2,7 +2,6 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Loader2, InfoIcon, RefreshCw } from "lucide-react";
 import { Deployment } from "@/lib/types";
-import DeploymentStats from "./DeploymentStats";
 import DeploymentsList from "./DeploymentsList";
 import ServiceSidebar from "./ServiceSidebar";
 import { Container, Heading, Text, Card } from "@/components/ui/design-system";
@@ -19,9 +18,6 @@ interface ServicePageProps {
   isDeploymentActive: (createdAt: string, duration: string) => boolean;
   fetchDeployments: () => void;
   activeInstances: number;
-  totalDeployments: number;
-  currentCpuUsage: number;
-  currentRamUsage: string;
   serviceName: string;
   onDelete?: (deploymentId: string) => void;
   router: any;
@@ -39,9 +35,6 @@ const ServicePage: React.FC<ServicePageProps> = ({
   isDeploymentActive,
   fetchDeployments,
   activeInstances,
-  totalDeployments,
-  currentCpuUsage,
-  currentRamUsage,
   serviceName,
   onDelete,
   router,
@@ -64,9 +57,7 @@ const ServicePage: React.FC<ServicePageProps> = ({
           <Text variant="large" className="space-tight">
             Please sign in to view your deployments
           </Text>
-          <Button variant="outline">
-            Sign In
-          </Button>
+          <Button variant="outline">Sign In</Button>
         </Card>
       );
     }
@@ -105,24 +96,16 @@ const ServicePage: React.FC<ServicePageProps> = ({
         {renderAuthContent(
           <div className="w-full overflow-hidden space-component">
             {/* Stats Overview */}
-            <DeploymentStats
-              isLoading={isLoading}
-              activeInstances={activeInstances}
-              totalDeployments={totalDeployments}
-              currentCpuUsage={currentCpuUsage.toString()}
-              currentRamUsage={currentRamUsage}
-            />
-
-            {/* Main Content */}
             <div className="grid grid-cols-1 gap-6 sm:gap-8 md:grid-cols-4">
               {/* Mobile: Sidebar on top for small screens */}
               <div className="block md:hidden">
                 <ServiceSidebar
                   deployments={deployments}
                   onRefresh={fetchDeployments}
-                  onCreateNew={() => router.push(deployPath)}
                   isDeploymentActive={isDeploymentActive}
                   serviceName={serviceName}
+                  isLoading={isLoading}
+                  activeInstances={activeInstances}
                 />
               </div>
 
@@ -133,7 +116,10 @@ const ServicePage: React.FC<ServicePageProps> = ({
                     Your Deployments
                   </Heading>
 
-                  <Card variant="dense" className="border-primary/10 bg-primary/5 space-tight">
+                  <Card
+                    variant="dense"
+                    className="border-primary/10 bg-primary/5 space-tight"
+                  >
                     <div className="flex items-center gap-2">
                       <InfoIcon className="h-4 w-4 text-primary" />
                       <Text variant="small" muted>
@@ -157,9 +143,10 @@ const ServicePage: React.FC<ServicePageProps> = ({
                 <ServiceSidebar
                   deployments={deployments}
                   onRefresh={fetchDeployments}
-                  onCreateNew={() => router.push(deployPath)}
                   isDeploymentActive={isDeploymentActive}
                   serviceName={serviceName}
+                  isLoading={isLoading}
+                  activeInstances={activeInstances}
                 />
               </div>
             </div>
